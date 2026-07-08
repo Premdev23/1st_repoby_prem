@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.env
+*.pdf
+.venv/
+venv/
+files/
+chroma_db/
+.gitattributes
+*.sqlite3
+*.bin
+*.pickle
