@@ -12,7 +12,8 @@ from collections import defaultdict
 from groq import Groq
 from embedder import embed_text
 from vector_store import search_chunks
-
+from dotenv import load_dotenv
+load_dotenv()
 # ── Configure Groq (same key as ingest.py) ────────────────────────────────────
 #groq_client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 #GROQ_MODEL = "llama-3.1-8b-instant"
